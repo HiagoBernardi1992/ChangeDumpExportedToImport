@@ -8,7 +8,7 @@ namespace ChangeDumpExportedToImport
         static void Main(string[] args)
         {
             //Folder of the dump exported
-            DirectoryInfo d = new DirectoryInfo(@"C:\Users\hiago\Desktop\Projetos\BUNAC\Dump");
+            DirectoryInfo d = new DirectoryInfo(@"C:\Users\hiago\Desktop\Projetos\BUNAC\Database Backups\Preview");
             FileInfo[] infos = d.GetFiles();
             foreach (FileInfo f in infos)
             {
